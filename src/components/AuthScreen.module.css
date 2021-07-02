@@ -1,0 +1,120 @@
+.body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #1f1a30;
+}
+
+.header {
+  color: white;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.appLogo {
+  height: 3rem;
+  width: 3rem;
+  margin-right: 1rem;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.mainForm {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainForm > div {
+  margin-bottom: 1.5rem;
+}
+
+.mainForm h1 {
+  font-size: 2.3rem;
+  font-weight: 900;
+}
+
+.mainBtn {
+  width: 70%;
+  height: 3rem;
+  border: none;
+  outline: none;
+  background-color: #0df6e3;
+  color: #1f1a30;
+  font-size: 1.3rem;
+  border-radius: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.signupBtn {
+  background-color: #1f1a30;
+  color: #0df6e3;
+  border: none;
+  outline: none;
+  font-size: 1.1rem;
+}
+
+.inputBox {
+  width: 80%;
+  margin: 1rem 0;
+}
+
+.inputBox div:first-child {
+  font-size: 1.3rem;
+}
+
+.inputBox input {
+  background-color: #1f1a30;
+
+  border: none;
+  border-bottom: 1px solid white;
+  margin: 0.5rem 0;
+  width: 100%;
+  height: 2rem;
+  font-size: 1.3rem;
+  color: white;
+}
+
+.inputBox input:focus {
+  outline: none;
+}
+
+.footer {
+  color: white;
+  display: flex;
+  height: 3rem;
+  font-size: 1.1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 900px) {
+  .mainForm > div {
+    margin-bottom: 2rem;
+  }
+  .inputBox {
+    width: 25rem;
+    margin: 1rem 0;
+  }
+
+  .mainBtn {
+    width: 15rem;
+  }
+}

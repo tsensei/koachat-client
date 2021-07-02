@@ -1,0 +1,58 @@
+.main {
+  width: 20rem;
+  min-height: 100vh;
+  background-color: rgb(57, 56, 90);
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainMobile {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: rgb(57, 56, 90);
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.navHeader {
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.navBody {
+  flex: 1;
+  text-align: center;
+}
+
+.navBody h3 {
+  margin-top: 2rem;
+}
+
+.navFooter {
+  display: flex;
+  height: 3rem;
+  font-size: 1.1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.appLogo {
+  height: 3rem;
+  width: 3rem;
+  margin-right: 1rem;
+}
+
+.profile {
+  padding: 1.5rem;
+  width: 100%;
+  background-color: #474b7b;
+}
+
+.profile p:first-child {
+  font-size: 2rem;
+}

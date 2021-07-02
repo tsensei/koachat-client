@@ -1,0 +1,17 @@
+.main {
+  background-color: #ecf0f1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main > * {
+  margin-bottom: 1rem;
+}
+
+.appIcon {
+  height: 6rem;
+  width: 6rem;
+}

@@ -1,0 +1,124 @@
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  max-height: 100vh;
+}
+
+.header {
+  background-color: #5e5c8d;
+  height: 5rem;
+  font-size: 2rem;
+  padding: 1.5rem;
+  color: white;
+}
+
+.headerMobile {
+  background-color: #5e5c8d;
+  height: 4rem;
+  font-size: 1.5rem;
+  padding: 0 1rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerBtn {
+  height: 2rem;
+  padding: 0.5rem;
+  background-color: white;
+  color: #5e5c8d;
+  border: none;
+  border-radius: 1rem;
+}
+
+.body {
+  background-color: #ddddf7;
+  flex: 1;
+  padding: 1rem 0.5rem;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.body p {
+  font-size: 1.2rem;
+  color: #5e5c8d;
+}
+
+.input {
+  height: 5rem;
+  background-color: white;
+  bottom: 0;
+  display: flex;
+}
+
+.inputMobile {
+  height: 3rem;
+  background-color: white;
+  bottom: 0;
+  display: flex;
+}
+
+.input input,
+.inputMobile input {
+  flex: 1;
+  width: 100%;
+  border: none;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.inputMobile input {
+  font-size: 1rem;
+}
+
+.input input:focus,
+.inputMobile input:focus {
+  outline: none;
+}
+
+.input button,
+.inputMobile button {
+  height: 100%;
+  width: 5rem;
+  outline: none;
+  border: none;
+  background-color: #9f9dc4;
+  color: white;
+}
+
+.inputMobile button {
+  width: 4rem;
+}
+
+.fromSelf,
+.fromOther {
+  padding: 1.3rem;
+  width: fit-content;
+  max-width: 50%;
+  border-radius: 0.7rem;
+  margin-bottom: 1rem;
+}
+
+.fromSelf {
+  position: relative;
+  margin-left: auto;
+  background-color: #4622fe;
+  color: white;
+}
+
+.fromOther {
+  background-color: #f3f4f9;
+  color: black;
+}
+
+@media screen and (max-width: 900px) {
+  .fromSelf,
+  .fromOther {
+    padding: 1rem;
+    max-width: 50%;
+    border-radius: 0.7rem;
+    margin-bottom: 0.6rem;
+  }
+}
